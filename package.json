@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/eqws/eqws-redis#readme",
   "dependencies": {
+    "eqws-adapter": "git+https://github.com/eqws/eqws-adapter.git",
+    "redis": "^2.8.0",
     "debug": "^2.6.3",
     "uid2": "0.0.3"
   }

@@ -1,7 +1,7 @@
-const Adapter = require('../../eqws-adapter');
-const uid2 = require('uid2');
+const Adapter = require('eqws-adapter');
+const uid2    = require('uid2');
 const msgpack = require('msgpack-lite');
-const redis = require('redis').createClient;
+const redis   = require('redis').createClient;
 
 const debug = require('debug')('eqws:redis');
 const error = require('debug')('eqws:redis:error');
